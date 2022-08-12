@@ -38,7 +38,7 @@ function setGame(){
         container.innerHTML = ""; // 원래 이미지 없어지게
         shuffle(tiles).forEach(tile=> container.appendChild(tile)) // 이미지 랜덤
         timeInterval = setInterval(() => {
-            playTime.innerText = "게임 시간 : " + time;
+            playTime.innerText = "Game Time : " + time;
             time++;
         }, 1000)
     }, 3000)
